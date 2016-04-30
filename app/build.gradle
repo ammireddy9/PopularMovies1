@@ -17,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
-            minifyEnabled true
+            minifyEnabled false
             buildConfigField "String","API_KEY","\"42485f4880f7eccf3e03c7cc3347ea00\""
         }
     }
